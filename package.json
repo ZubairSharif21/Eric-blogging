@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.10",
+        "autoprefixer": "^10.4.16",
+        "axios": "^1.6.1",
+        "flowbite": "^2.2.1",
+        "flowbite-typography": "^1.0.3",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.33",
+        "serverless-lift": "^1.28.1",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@editorjs/editorjs": "^2.28.2",
+        "@editorjs/header": "^2.8.1",
+        "@editorjs/image": "^2.9.0",
+        "@editorjs/list": "^1.9.0",
+        "@editorjs/raw": "^2.5.0",
+        "@tailwindcss/line-clamp": "^0.4.4",
+        "alpinejs": "^3.13.5",
+        "editorjs-paragraph-with-alignment": "^3.0.0",
+        "flatpickr": "^4.6.13",
+        "jquery": "^3.7.1"
+    }
+}
