@@ -15,7 +15,7 @@
                 @else
                     <div @click="window.dispatchEvent(new CustomEvent('show-modal-image', { detail: { userData: {{ $user }}, details: {{ $details }} } }))"
                         class="relative h-20 w-20 shrink-0 grow-0 rounded-full border-4 border-white bg-cover shadow-lg transition-[filter_500ms_ease] hover:cursor-pointer hover:brightness-90 sm:h-32 sm:w-32"
-                        style="background-image: url('{{ asset('img/user_photo.png') }}'); 
+                        style="background-image: url('{{ asset('img/user_photo.png') }}');
                         background-size: cover;
                         background-position: center;">
             @endif
@@ -247,7 +247,7 @@
                                 </a>
                             @endif
                             <div class="absolute top-0 flex w-full items-center justify-between p-2 text-gray-500">
-                                <a href='/blog/categories/{{ $post->category->slug }}'>
+                                <a href="{{ route('blog.category', ['category' => $post->category->slug]) }}">
                                     <span
                                         class="inline-flex items-center gap-1 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-200 dark:text-primary-800">
                                         {!! $post->category->icon !!}
@@ -261,8 +261,8 @@
                         <div class="relative flex flex-grow flex-col p-6">
                             <ul class="mb-1 flex flex-wrap gap-1">
                                 @foreach ($post->tags->sortBy('id')->unique() as $tag)
-                                    <li><a href='/blog/tags/{{ $tag->slug }}'
-                                            class='{{ $tag->tagScheme->class }} inline-flex w-full cursor-pointer items-center justify-center rounded border px-2.5 py-0.5'><span
+                                <li><a href="{{ route('blog.tag', ['tag' => $tag->slug]) }}">
+                                    class='{{ $tag->tagScheme->class }} inline-flex w-full cursor-pointer items-center justify-center rounded border px-2.5 py-0.5'><span
                                                 class='text-center text-xs font-medium'>
                                                 {{ $tag->name }}
                                             </span></a></li>

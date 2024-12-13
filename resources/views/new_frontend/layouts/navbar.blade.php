@@ -26,10 +26,10 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-            <a href="/blog" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
-            <a href="/about" class="text-sm font-semibold leading-6 text-gray-900">About</a>
-            <a href="/contact"
+            <a href="{{ route('home') }}" class="text-sm font-semibold leading-6 text-gray-900"Home</a>
+            <a href="{{ route('blog.index') }}" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
+            <a href="{{ route('about-us') }}" class="text-sm font-semibold leading-6 text-gray-900">About</a>
+            <a href="{{ route('contact-us') }}"
                 class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">

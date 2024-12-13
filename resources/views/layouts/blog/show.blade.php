@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </address>
-                    <a href='/blog/categories/{{ $singlePost->category->slug }}'>
+                    <a href="{{ route('blog.category', ['category' => $post->category->slug]) }}">
                         <span
                             class="inline-flex items-center gap-1 rounded bg-primary-100 px-2.5 py-1 text-primary-800 dark:bg-primary-200 dark:text-primary-800">
 
@@ -90,8 +90,8 @@
                     <div>
                         <ul class="mb-1 flex flex-wrap gap-1">
                             @foreach ($singlePost->tags->sortBy('id')->unique() as $tag)
-                                <li><a href='/blog/tags/{{ $tag->slug }}'
-                                        class='{{ $tag->tagScheme->class }} inline-flex w-full cursor-pointer items-center justify-center rounded border px-2.5 py-0.5'><span
+                            <li><a href="{{ route('blog.tag', ['tag' => $tag->slug]) }}">
+                                class='{{ $tag->tagScheme->class }} inline-flex w-full cursor-pointer items-center justify-center rounded border px-2.5 py-0.5'><span
                                             class='text-center text-xs font-medium'>
                                             {{ $tag->name }}
                                         </span></a></li>
