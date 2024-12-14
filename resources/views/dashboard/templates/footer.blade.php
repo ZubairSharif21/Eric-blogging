@@ -122,8 +122,9 @@
         }
     </script>
 @endif
+<script type="module" src="{{ asset('livewire/livewire.js?id=02b08710') }}"></script>
 
-@livewireScripts
+{% comment %} @livewireScripts {% endcomment %}
 </body>
 
 </html>
