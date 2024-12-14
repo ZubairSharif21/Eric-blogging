@@ -1,15 +1,15 @@
 <p align="center"><a href="https://blog.bellawan.my.id" target="_blank"><img src="https://bellawan.my.id/img/favicon.png" width="100" alt="Bellawan Logo" style="box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);" /></a></p>
 <p align="center"><a href="https://blog.bellawan.my.id" style="text-decoration: none;"><span style=" background-clip:text; -webkit-background-clip: text;color:transparent; background-image:linear-gradient(to right,#38bdf8,#059669); font-size: 36px; font-weight: 700;">BK Blog</span></a></p>
 
-## Tentang BKBlog
+## Tentang Eric Blog
 
-BKBlog adalah sistem manajemen blog/sistem manajemen konten yang dibangun dengan framework Laravel.
+Eric Blog adalah sistem manajemen blog/sistem manajemen konten yang dibangun dengan framework Laravel.
 
-BKBlog merupakan proyek ambisius untuk menuangkan ide dan gagasan, dengan cara yang menyenangkan dan intuitif. Berawal dari hobi dan ketertarikan pada blogging, tahun 2010 Saya mulai ikut terjun di dunia blogging. Pada tahun itu teknologi web belum secanggih sekarang. Blogspot dan Wordpress adalah aplikasi yang sangat umum digunakan bagi siapapun yang memulai blogging, termasuk Saya.
+Eric Blog merupakan proyek ambisius untuk menuangkan ide dan gagasan, dengan cara yang menyenangkan dan intuitif. Berawal dari hobi dan ketertarikan pada blogging, tahun 2010 Saya mulai ikut terjun di dunia blogging. Pada tahun itu teknologi web belum secanggih sekarang. Blogspot dan Wordpress adalah aplikasi yang sangat umum digunakan bagi siapapun yang memulai blogging, termasuk Saya.
 
 Dengan berkembangnya teknologi web, dan banyaknya framework yang sangat mempermudah untuk membuat web dari nol, Saya mencoba membuat ulang blog pertama saya yang masih menggunakan Blogspot.
 
-Kunjungi project blog Saya di [BKBlog Website](https://blog.bellawan.my.id)
+Kunjungi project blog Saya di [Eric Blog Website](https://blog.bellawan.my.id)
 
 ## Fitur
 
@@ -104,7 +104,7 @@ Editor.js memberikan daya maksimum untuk pengembang dan produk yang tetap fokus 
 Pertama, Anda harus sudah memiliki Git, PHP, dan Composer terinstall pada device. Lakukan clone pada repository ini.
 
 ```
-git clone https://github.com/belankus/BKBlog.git bkblog
+git clone https://github.com/belankus/Eric Blog.git bkblog
 ```
 
 Masuk ke dalam folder kerja anda
@@ -193,4 +193,4 @@ Proyek ini terinspirasi dari orang-orang hebat ini, kunjungi kanal mereka apabil
 
 ## License
 
-Proyek BKBlog adalah proyek open-source yang mengacu pada lisensi MIT [MIT license](LICENSE).
+Proyek Eric Blog adalah proyek open-source yang mengacu pada lisensi MIT [MIT license](LICENSE).

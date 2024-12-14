@@ -1,19 +1,19 @@
 <p align="center"><a href="https://blog.bellawan.my.id" target="_blank"><img src="https://bellawan.my.id/img/favicon.png" width="100" alt="Bellawan Logo" style="box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);" /></a></p>
 <a href="https://blog.bellawan.my.id" style="text-decoration: none;"><h1 align="center">BK Blog</h1></a>
 <p align="center">
-<img src="https://github.com/belankus/BKBlog/blob/public/public/img/indonesia_round_icon_64.png" height="16" alt="Indonesian Flag" />
-<a href="https://github.com/belankus/BKBlog/blob/public/README_ID.md">Bahasa Indonesia</a>
+<img src="https://github.com/belankus/Eric Blog/blob/public/public/img/indonesia_round_icon_64.png" height="16" alt="Indonesian Flag" />
+<a href="https://github.com/belankus/Eric Blog/blob/public/README_ID.md">Bahasa Indonesia</a>
 </p>
 
-## About BKBlog
+## About Eric Blog
 
-BKBlog is a robust blog management system/content management system (CMS) that's built with Laravel framework.
+Eric Blog is a robust blog management system/content management system (CMS) that's built with Laravel framework.
 
-BKBlog is a reckless project created to express thoughts and ideas in an intuitive and fun way. Starting from a hobby and interest in blogging that began in 2010, where web technology has not advanced as fast as it is now. Blogspot and Wordpress were the starting point for all beginner bloggers, including me.
+Eric Blog is a reckless project created to express thoughts and ideas in an intuitive and fun way. Starting from a hobby and interest in blogging that began in 2010, where web technology has not advanced as fast as it is now. Blogspot and Wordpress were the starting point for all beginner bloggers, including me.
 
 With the development of website technology, with many frameworks that make it easier to build a website from scratch, I tried to recreate my first blog that was still using the Blogspot platform.
 
-You can visit this project real demo at [BKBlog Website](https://blog.bellawan.my.id)
+You can visit this project real demo at [Eric Blog Website](https://blog.bellawan.my.id)
 
 ## Features
 
@@ -59,7 +59,7 @@ Users can interact with other in blog posts.
 
 ## Technologies
 
-I'm proud to share some of the technologies I've used to create the BKBlog app.
+I'm proud to share some of the technologies I've used to create the Eric Blog app.
 
 -   **[Laravel 10](#laravel)**
 -   **[Livewire 3](#livewire)**
@@ -108,7 +108,7 @@ Editor.js provides maximum power for developers and products staying focused on 
 First you need to have these app installed on your computer: Git, PHP, and Composer. Clone this repo to your local machine.
 
 ```
-git clone https://github.com/belankus/BKBlog.git bkblog
+git clone https://github.com/belankus/Eric Blog.git bkblog
 ```
 
 Move to `bkblog` directory
@@ -197,4 +197,4 @@ This project was inspired by some of these great people, if you're interested yo
 
 ## License
 
-The BKBlog project is open-sourced software licensed under the [MIT license](LICENSE).
+The Eric Blog project is open-sourced software licensed under the [MIT license](LICENSE).
