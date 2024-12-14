@@ -50,7 +50,7 @@
                     </div>
                     <main class="w-full rounded-none">
                         <h1 class="font-inter mb-3 text-center text-3xl">Please Log in</h1>
-                        <form action="/login" method="post" class="mt-10 w-full">
+                        <form action="{{ route('login.submit') }}" method="post" class="mt-10 w-full">
                             @csrf
                             <div class="group relative z-0 mb-5 w-full">
                                 <input type="email" name="email" autocomplete="off"
@@ -95,7 +95,7 @@
                                 </button>
                             </div>
                         </form>
-                        <small class="mt-3 block text-center text-gray-600">Not registered? <a href="/register"
+                        <small class="mt-3 block text-center text-gray-600">Not registered? <a href="{{ route('register') }}"
                                 class="text-blue-500 underline hover:text-blue-700 hover:no-underline">Register
                                 Now!</a></small>
                     </main>
