@@ -35,7 +35,7 @@
                     </span>
                     <ul class="mt-5 flex justify-center space-x-5">
                         <li>
-                            <a href="https://twitter.com/belankus" target="_blank" title="X Twitter Profile">
+                            <a href="https://twitter.com" target="_blank" title="X Twitter Profile">
                                 <span class="sr-only">X Twitter</span>
                                 <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 
@@ -48,7 +48,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/bellawankusuma/" target="_blank"
+                            <a href="https://www.linkedin.com/in/" target="_blank"
                                 title="LinkedIn Profile">
                                 <span class="sr-only">Linked In</span>
                                 <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
@@ -64,7 +64,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/belankus/" target="_blank" title="GitHub Profile">
+                            <a href="https://github.com/" target="_blank" title="GitHub Profile">
                                 <span class="sr-only">Github</span>
                                 <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/belankus/" target="_blank" title="Instagram Profile">
+                            <a href="https://www.instagram.com/" target="_blank" title="Instagram Profile">
                                 <span class="sr-only">Instagram</span>
                                 <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 

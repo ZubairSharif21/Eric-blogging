@@ -230,25 +230,23 @@
     <section class="py-5 bg-light">
         <div class="container py-4">
             <header class="text-center mb-5">
-                <h2>My travel essentials</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h2>Travel Blogs</h2>
+                <p>Discover insightful articles and updates from our travel adventures.</p>
             </header>
             <div class="row text-center">
                 @if ($latestPosts)
-                @foreach ($latestPosts as $latestPost)
-                <div class="col-lg-3 col-md-6">
-                    <a class="text-reset"
-                        href="/blog/{{ $latestPost->getYear($latestPost->published_at) }}/{{ $latestPost->slug }}">
-                        <img class="mb-4 fixed-size mx-auto" src="{{ asset($latestPost->image) }}" alt="Post Image">
-
-                        <p class="text-sm text-muted">{{ $latestPost->title }}</p>
-                    </a>
-                </div>
-                @endforeach
-
+                    @foreach ($latestPosts as $latestPost)
+                        <div class="col-lg-3 col-md-6">
+                            <a class="text-reset"
+                                href="{{ route('singlePost', ['year' => $latestPost->getYear($latestPost->published_at), 'slug' => $latestPost->slug]) }}">
+                                <img class="mb-4 fixed-size mx-auto" src="{{ asset($latestPost->image) }}" alt="Post Image">
+                                <p class="text-sm text-muted">{{ $latestPost->title }}</p>
+                            </a>
+                        </div>
+                    @endforeach
                 @endif
-
             </div>
+        </div>
     </section>
     <section class="py-5">
         <div class="container py-4">
@@ -342,7 +340,7 @@
                 </span>
                 <ul class="mt-5 flex justify-center space-x-5">
                     <li>
-                        <a href="https://twitter.com/belankus" target="_blank" title="X Twitter Profile">
+                        <a href="https://twitter.com" target="_blank" title="X Twitter Profile">
                             <span class="sr-only">X Twitter</span>
                             <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 
@@ -355,7 +353,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/bellawankusuma/" target="_blank" title="LinkedIn Profile">
+                        <a href="https://www.linkedin.com/in/" target="_blank" title="LinkedIn Profile">
                             <span class="sr-only">Linked In</span>
                             <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 
@@ -370,7 +368,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/belankus/" target="_blank" title="GitHub Profile">
+                        <a href="https://github.com/" target="_blank" title="GitHub Profile">
                             <span class="sr-only">Github</span>
                             <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 
@@ -384,7 +382,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/belankus/" target="_blank" title="Instagram Profile">
+                        <a href="https://www.instagram.com/" target="_blank" title="Instagram Profile">
                             <span class="sr-only">Instagram</span>
                             <div class="group relative overflow-hidden rounded-full bg-transparent p-2">
 

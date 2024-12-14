@@ -17,7 +17,21 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <style>
+        .font-normal {
+            font-weight: 400;
+        }
 
+        .text-2xl {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        .flex .lg\:flex-1 a {
+            color: #ebaa3d !important;
+            text-decoration: none;
+        }
+
+        </style>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     {{-- @if (env('APP_ENV') == 'production')
