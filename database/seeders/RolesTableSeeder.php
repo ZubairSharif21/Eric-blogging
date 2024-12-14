@@ -58,16 +58,16 @@ class RolesTableSeeder extends Seeder
             $editRolePermission
         ]);
         $userRole->givePermissionTo([
-            $createPostPermission,
-            $editPostPermission,
-            $deletePostPermission,
+            // $createPostPermission,
+            // $editPostPermission,
+            // $deletePostPermission,
             $editUserPermission,
             $deleteUserPermission,
             $createCommentPermission,
             $editCommentPermission,
             $deleteCommentPermission,
-            $viewCategoryPermission,
-            $viewTagPermission
+            // $viewCategoryPermission,
+            // $viewTagPermission
         ]);
         $visitorRole->givePermissionTo([
             $createCommentPermission, $editCommentPermission, $deleteCommentPermission,
