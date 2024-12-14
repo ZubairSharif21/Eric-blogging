@@ -73,21 +73,21 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6">
-                        <a href="/"
+                        <a href="{{ route('home') }}"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-                        <a href="/blog"
+                        <a href="{{ route('blog.index') }}"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
-                        <a href="/about"
+                        <a href="{{ route('about-us') }}"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
-                        <a href="/contact"
+                        <a href="{{ route('contact-us') }}"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
                     </div>
                     <div class="py-6">
                         @if (Auth::check())
-                            <a href="/dashboard"
+                            <a href="{{ route('dashboard') }}"
                                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Dashboard</a>
                         @else
-                            <a href="/login"
+                            <a href="{{ route('login') }}"
                                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
                                 in</a>
                         @endif

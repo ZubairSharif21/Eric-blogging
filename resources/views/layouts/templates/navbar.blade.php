@@ -26,16 +26,16 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-            <a href="/blog" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
-            <a href="/about" class="text-sm font-semibold leading-6 text-gray-900">About</a>
+            <a href="{{ route('home') }}" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+            <a href="{{ route('blog.index') }}" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
+            <a href="{{ route('about-us') }}" class="text-sm font-semibold leading-6 text-gray-900">About</a>
             <a href="{{ route('contact-us') }}"
                 class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             @if (Auth::check())
 
-                <a href="/dashboard" class="relative text-sm font-semibold leading-6 text-gray-900">Dashboard <span
+                <a href="{{ route('dashboard') }}" class="relative text-sm font-semibold leading-6 text-gray-900">Dashboard <span
                         aria-hidden="true">&rarr;</span>
                     @if (Auth::user()->unreadNotifications->count() > 0)
                         <span
@@ -43,7 +43,7 @@
                     @endif
                 </a>
             @else
-                <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
+                <a href="{{ route('login') }}" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
                         aria-hidden="true">&rarr;</span></a>
             @endif
         </div>
@@ -84,10 +84,10 @@
                     </div>
                     <div class="py-6">
                         @if (Auth::check())
-                            <a href="/dashboard"
+                            <a href="{{ route('dashboard') }}"
                                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Dashboard</a>
                         @else
-                            <a href="/login"
+                            <a href="{{ route('login') }}"
                                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
                                 in</a>
                         @endif
