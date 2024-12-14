@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </address>
-                    <a href="{{ route('blog.category', ['category' => $post->category->slug]) }}">
+                    <a href="{{ route('blog.category', ['category' => $singlePost->category->slug]) }}">
                         <span
                             class="inline-flex items-center gap-1 rounded bg-primary-100 px-2.5 py-1 text-primary-800 dark:bg-primary-200 dark:text-primary-800">
 
