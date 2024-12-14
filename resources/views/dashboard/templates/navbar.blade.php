@@ -30,7 +30,7 @@
                     </svg>
                 </button>
                 <a href="#" class="sm:mr-16 sm:flex">
-                    <img src="/img/logo.png" class="mr-3 h-8" alt="Bellawan Logo" />
+                    <img src="{{ asset('/img/logo.png') }}" class="mr-3 h-8" alt="Bellawan Logo" />
                     <h1
                         class="hidden self-center whitespace-nowrap text-2xl font-semibold dark:text-white sm:inline-block">
                         Blog</h1>
@@ -166,7 +166,7 @@
                     </ul>
                     <ul class="py-1 text-gray-500 dark:text-gray-400" aria-labelledby="dropdown">
                         <li>
-                            <form action="/logout" method="post">
+                            <form action="{{ route('logout') }}" method="post">
                                 @csrf
                                 <button type="submit"
                                     class="block w-full px-4 py-2 text-sm hover:bg-red-700 hover:text-white dark:hover:bg-gray-600">Log
